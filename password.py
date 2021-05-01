@@ -21,5 +21,5 @@ for char in range(1, syb + 1):
     password= password + random.choice(symbols)
 list1=list(password)
 random.shuffle(list1)
-finalPasswprd = ''.join(list1)
+finalPassword = ''.join(list1)
 print("the genrator password: ",finalPassword)
