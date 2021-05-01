@@ -19,10 +19,7 @@ for char in range(1, LC + 1):
     password= password + random.choice(Lstrings)
 for char in range(1, syb + 1):
     password= password + random.choice(symbols)
-print(password)
 list1=list(password)
-print(list1)
 random.shuffle(list1)
-print(list1)
 finalPasswprd = ''.join(list1)
 print("the genrator password: ",finalPassword)
