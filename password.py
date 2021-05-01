@@ -4,8 +4,8 @@
 import string
 import random
 import numpy as np
-Ustrings=string.ascii_lowercase
-Lstrings=string.ascii_uppercase
+Lstrings=string.ascii_lowercase
+Ustrings=string.ascii_uppercase
 num = np.array([i for i in range(10)])
 symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 length=int(input("enter the length of password: "))
