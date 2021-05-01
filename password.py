@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat May  1 10:43:52 2021
-
-@author: HP
-"""
 
 "password genrator"
 import string
